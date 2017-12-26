@@ -11,21 +11,25 @@ header{
     height: 100px;
 }
 
-h1{
+.developer-name{
     text-align: right;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
-h3{
+.developer-skill{
     text-align: right;
     font-size: 15px;
     margin-top: 2px;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
     color: #2d3c49;
 }
 
-hr{
+.developer-details{
+    margin-right: 5px;
+}
+
+.my-hr{
     border: none;
     height: 3px;
     background-color: #7d97ad;
@@ -44,4 +48,5 @@ hr{
 
 .featured-work-text{
     color: #7d97ad;
+    margin-left: 3px;
 }
