@@ -53,3 +53,13 @@ header{
     margin-left: 5px;
 }
 
+.figure-caption{
+    text-align: center;
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+.project-link{
+    text-align: center;
+    word-wrap: break-word;
+}

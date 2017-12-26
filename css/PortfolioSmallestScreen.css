@@ -7,6 +7,11 @@ picture, img, embed, object, video {
     max-width: 100%;
     }
 
+img{
+    display: block;
+    margin: auto;
+}
+
 header{
     height: 100px;
 }
@@ -49,4 +54,17 @@ header{
 .featured-work-text{
     color: #7d97ad;
     margin-left: 3px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.figure-caption{
+    text-align: center;
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+.project-link{
+    text-align: center;
+    word-wrap: break-word;
 }
