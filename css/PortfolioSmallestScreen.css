@@ -13,19 +13,19 @@ img{
 }
 
 header{
-    height: 100px;
+    height: 85px;
 }
 
 .developer-name{
     text-align: right;
     font-size: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
 }
 
 .developer-skill{
     text-align: right;
     font-size: 15px;
-    margin-top: 2px;
+    margin-top: 3px;
     margin-bottom: 10px;
     color: #2d3c49;
 }
@@ -38,12 +38,14 @@ header{
     border: none;
     height: 3px;
     background-color: #7d97ad;
-    margin-top: 2px;
+    margin-top: 3px;
     margin-bottom: 2px;
 }
 
 .udacity-logo{
     float: left;
+    height: 85;
+    width: 100;
 }
 
 .rwd-line{
