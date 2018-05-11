@@ -1,70 +1,37 @@
-*{
-    box-sizing: border-box;
-    font-family: Geneva;
-}
-
-picture, img, embed, object, video {
-    max-width: 100%;
-    }
-
-img{
-    display: block;
-    margin: auto;
-}
-
-header{
+header
+{
     height: 85px;
 }
 
-.developer-name{
-    text-align: right;
+.developer-name
+{
     font-size: 20px;
-    margin-bottom: 7px;
 }
 
-.developer-skill{
-    text-align: right;
+.developer-skill
+{
     font-size: 15px;
-    margin-top: 3px;
-    margin-bottom: 10px;
-    color: #2d3c49;
 }
 
-.developer-details{
+.developer-details
+{
     margin-right: 5px;
 }
 
-.my-hr{
-    border: none;
+.my-hr
+{
     height: 3px;
-    background-color: #7d97ad;
-    margin-top: 3px;
     margin-bottom: 2px;
 }
 
-.udacity-logo{
-    float: left;
-}
-
-.rwd-line{
+.rwd-line
+{
     display: block;
-    color: #2d3c49;
 }
 
-.featured-work-text{
-    color: #7d97ad;
+.featured-work-text
+{
+    font-size: 25px;
     margin-left: 3px;
     margin-bottom: 5px;
-    font-size: 25px;
-}
-
-.figure-caption{
-    text-align: center;
-    margin-top: 3px;
-    font-size: 20px;
-}
-
-.project-link{
-    text-align: center;
-    word-wrap: break-word;
 }

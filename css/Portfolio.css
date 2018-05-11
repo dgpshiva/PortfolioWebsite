@@ -1,69 +1,83 @@
-*{
+*
+{
     box-sizing: border-box;
     font-family: Geneva;
 }
 
-img, embed, object, video {
+picture, embed, object, video
+{
     max-width: 100%;
-    }
+}
 
-img{
+img
+{
+    max-width: 100%;
     display: block;
     margin: auto;
 }
 
-header{
+header
+{
     height: 110px;
 }
 
-.developer-name{
-    text-align: right;
+.developer-name
+{
     font-size: 35px;
     margin-bottom: 7px;
+    text-align: right;
 }
 
-.developer-skill{
-    text-align: right;
+.developer-skill
+{
     font-size: 30px;
     margin-top: 3px;
     margin-bottom: 10px;
     color: #2d3c49;
+    text-align: right;
 }
 
-.developer-details{
+.developer-details
+{
     margin-right:10px;
 }
 
-.my-hr{
-    border: none;
+.my-hr
+{
     height: 4px;
     background-color: #7d97ad;
+    border: none;
     margin-top: 3px;
     margin-bottom: 15px;
 }
 
-.udacity-logo{
+.udacity-logo
+{
     float: left;
 }
 
-.rwd-line{
-    display: inline;
+.rwd-line
+{
     color: #2d3c49;
+    display: inline;
 }
 
-.featured-work-text{
+.featured-work-text
+{
     color: #7d97ad;
     font-size: 35px;
     margin-left: 5px;
 }
 
-.figure-caption{
-    text-align: center;
-    margin-top: 3px;
+.figure-caption
+{
     font-size: 20px;
+    margin-top: 3px;
+    text-align: center;
 }
 
-.project-link{
+.project-link
+{
     text-align: center;
     word-wrap: break-word;
 }
