@@ -32,6 +32,5 @@ header
 .featured-work-text
 {
     font-size: 25px;
-    margin-left: 3px;
-    margin-bottom: 5px;
+    margin: auto auto 5px 3px;
 }

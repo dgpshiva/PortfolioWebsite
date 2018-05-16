@@ -2,7 +2,7 @@
 *
 {
     box-sizing: border-box;
-    font-family: Geneva;
+    font-family: Geneva, serif;
 }
 
 picture, embed, object, video
@@ -12,6 +12,8 @@ picture, embed, object, video
 
 img
 {
+    width: 100%;
+    height: auto;
     max-width: 100%;
     display: block;
     margin: auto;
@@ -23,36 +25,40 @@ img
 header
 {
     height: 110px;
+    display: flex;
 }
 
-.udacity-logo
+header.udacity-logo
 {
+    width: 20%;
+    height: auto;
     float: left;
 }
 
-.developer-details
+header.developer-details
 {
+    width: 80%;
     margin-right:10px;
+    float: right;
 }
 
-.developer-name
+header.developer-details .developer-name
 {
     font-size: 35px;
     margin-bottom: 7px;
     text-align: right;
 }
 
-.rwd-line
+header.developer-details .rwd-line
 {
     color: #2d3c49;
     display: inline;
 }
 
-.developer-skill
+header.developer-details .developer-skill
 {
     font-size: 30px;
-    margin-top: 3px;
-    margin-bottom: 10px;
+    margin: 3px auto 10px;
     color: #2d3c49;
     text-align: right;
 }
@@ -60,10 +66,9 @@ header
 .my-hr
 {
     height: 4px;
-    background-color: #7d97ad;
+    background: #7d97ad;
     border: none;
-    margin-top: 3px;
-    margin-bottom: 15px;
+    margin: 3px auto 15px;
 }
 
 
@@ -100,7 +105,7 @@ footer
     justify-content: center;
 }
 
-.social-handle
+footer a.social-handle
 {
     display: flex;
     align-items: center;

@@ -13,8 +13,7 @@ h1
 h3
 {
     font-size: 20px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin: 2px auto 2px;
     color: #2d3c49;
     text-align: right;
 }
@@ -22,9 +21,8 @@ h3
 hr
 {
     height: 4px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    background-color: #7d97ad;
+    margin: 2px auto 2px;
+    background: #7d97ad;
     border: none;
 }
 
