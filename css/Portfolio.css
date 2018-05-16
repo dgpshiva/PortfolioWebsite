@@ -1,3 +1,4 @@
+/* Genric styling */
 *
 {
     box-sizing: border-box;
@@ -16,6 +17,13 @@ img
     margin: auto;
 }
 
+inline
+{
+    float: left;
+}
+
+
+/* Header */
 header
 {
     height: 110px;
@@ -62,6 +70,8 @@ header
     display: inline;
 }
 
+
+
 .featured-work-text
 {
     color: #7d97ad;
@@ -69,6 +79,8 @@ header
     margin-left: 5px;
 }
 
+
+/* Columns */
 .figure-caption
 {
     font-size: 20px;
@@ -80,4 +92,43 @@ header
 {
     text-align: center;
     word-wrap: break-word;
+}
+
+
+/* Footer */
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social-handle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 33%;
+    font-size: 1em;
+}
+
+.twitter-color
+{
+    color: #0084b4;
+}
+
+.github-color
+{
+    color: #333;
+}
+
+.linkedin-color
+{
+
+}
+
+footer .social-handle p
+{
+    margin: 0;
 }
