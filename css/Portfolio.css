@@ -1,24 +1,17 @@
 /* Genric styling */
 *
 {
-    box-sizing: border-box;
     font-family: Geneva, serif;
 }
 
-picture, embed, object, video
-{
+img, embed, object, video {
     max-width: 100%;
-}
+    }
 
-img
-{
+img {
     width: 100%;
     height: auto;
-    max-width: 100%;
-    display: block;
-    margin: auto;
 }
-
 
 
 /* Header */
@@ -26,72 +19,72 @@ header
 {
     height: 110px;
     display: flex;
+    align-items: center;
 }
 
-header.udacity-logo
+.udacity-logo
 {
     width: 20%;
-    height: auto;
-    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
 
-header.developer-details
+.developer-details
 {
     width: 80%;
-    margin-right:10px;
-    float: right;
-}
-
-header.developer-details .developer-name
-{
-    font-size: 35px;
-    margin-bottom: 7px;
+    display: block;
     text-align: right;
+    margin-right: 10px;
+
 }
 
-header.developer-details .rwd-line
-{
-    color: #2d3c49;
-    display: inline;
-}
-
-header.developer-details .developer-skill
+.rwd-line
 {
     font-size: 30px;
-    margin: 3px auto 10px;
     color: #2d3c49;
-    text-align: right;
 }
+
+.developer-skill
+{
+    font-size: 20px;
+    color: #2d3c49;
+    margin: 3px auto 10px;
+}
+
 
 .my-hr
 {
+    width: 100%;
     height: 4px;
     background: #7d97ad;
     border: none;
-    margin: 3px auto 15px;
 }
-
-
 
 .featured-work-text
 {
+    font-size: 30px;
     color: #7d97ad;
-    font-size: 35px;
-    margin-left: 5px;
+    margin: 15px 5px;
 }
 
 
-
 /* Columns */
+figure
+{
+    text-align: center;
+}
+
 .figure-caption
 {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 3px;
-    text-align: center;
 }
 
 .project-link
 {
+    font-size: 15px;
     text-align: center;
     word-wrap: break-word;
 }
@@ -105,14 +98,14 @@ footer
     justify-content: center;
 }
 
-footer a.social-handle
+.social-handle
 {
+    width: 33%;
+    font-size: 1.3em;
     display: flex;
     align-items: center;
     justify-content: center;
     float: left;
-    width: 33%;
-    font-size: 1.3em;
     margin-bottom: 10px;
 }
 

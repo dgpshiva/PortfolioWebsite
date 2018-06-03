@@ -1,0 +1,64 @@
+/* Header */
+header
+{
+    height: 85px;
+}
+
+.udacity-logo
+{
+    width: 30%;
+}
+
+.developer-details
+{
+    width: 70%;
+    margin-right: 5px;
+}
+
+.rwd-line
+{
+    font-size: 18px;
+    display: block;
+}
+
+.developer-skill
+{
+    font-size: 14px;
+    margin: 2px auto 5px;
+}
+
+
+.my-hr
+{
+    height: 3px;
+    margin: 10px auto;
+}
+
+.featured-work-text
+{
+    font-size: 18px;
+    margin: 10px 5px;
+}
+
+
+/* Columns */
+.figure-caption
+{
+    font-size: 13px;
+}
+
+.project-link
+{
+    font-size: 11px;
+}
+
+.project-rows img
+{
+    width: 45%;
+}
+
+
+.social-handle
+{
+    font-size: 15px;
+}

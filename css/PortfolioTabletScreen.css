@@ -1,0 +1,31 @@
+/* Header */
+header
+{
+    height: 100px;
+}
+
+.udacity-logo
+{
+    width: 30%;
+}
+
+.developer-details
+{
+    width: 70%;
+}
+
+.rwd-line
+{
+    display: block;
+}
+
+.developer-skill
+{
+    margin: 2px auto 5px;
+}
+
+
+.my-hr
+{
+    margin: 15px auto;
+}
