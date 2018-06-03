@@ -3,20 +3,26 @@
 * {
 	font-family: Geneva, serif;
 }
-img, embed, object, video {
+
+img,
+embed,
+object,
+video {
 	max-width: 100%;
 }
+
 img {
 	width: 100%;
 	height: auto;
 }
-/* Header */
 
+/* Header */
 header {
 	height: 110px;
 	display: flex;
 	align-items: center;
 }
+
 .udacity-logo {
 	width: 20%;
 	height: 100%;
@@ -24,74 +30,88 @@ header {
 	align-items: center;
 	margin: 0;
 }
+
 .developer-details {
 	width: 80%;
 	display: block;
 	text-align: right;
 	margin-right: 10px;
 }
+
 .rwd-line {
 	font-size: 30px;
 	color: #2d3c49;
 }
+
 .developer-skill {
 	font-size: 20px;
 	color: #2d3c49;
 	margin: 3px auto 10px;
 }
+
 .my-hr {
 	width: 100%;
 	height: 4px;
 	background: #7d97ad;
 	border: none;
 }
+
 .featured-work-text {
 	font-size: 30px;
 	color: #7d97ad;
 	margin: 15px 5px;
 }
-/* Columns */
 
+/* Columns */
 figure {
 	text-align: center;
 }
+
 .figure-caption {
 	font-size: 18px;
 	margin-top: 3px;
 }
+
 .project-link {
 	font-size: 14px;
 	text-align: center;
 	word-wrap: break-word;
 }
-/* Footer */
 
+/* Footer */
 footer {
 	display: flex;
+	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
 }
+
 .social-handle {
 	width: 33%;
 	font-size: 1.3em;
 	display: flex;
+	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
-	float: left;
 	margin-bottom: 10px;
 }
+
 .twitter-color {
 	color: #0084b4;
 }
+
 .twitter-handle-name {
 	font-size: 0.8em;
 }
+
 .github-color {
 	color: #333;
 }
+
 .linkedin-color {
-	color: #0077B5;
+	color: #0077b5;
 }
+
 footer a p {
 	margin: 0;
 }
